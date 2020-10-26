@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=" CSS/style.css" >
+    <title>Final</title>
+
+
+    <style>
+
+        
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.Sliderss {display: none}
+img {vertical-align: middle;}
+#Success1{
+    width: 100%;
+    max-width: 1320px;
+    height: 680px;
+    /* background: blue; */
+    margin-left: 0px;
+}
+.clear{
+    clear: both;
+}
+/* Slideshow container */
+.slidesho-container {
+  width: 100%;
+  height:auto;
+  position: relative;
+
+  /* margin: auto; */
+  /* background:greenyellow; */
+
+
+}
+
+.Sliderss{
+  background-color:white; 
+  margin-left: auto;
+  margin-right: auto;
+  width:80%; 
+  height: auto;
+}
+
+/* nextt & prevvious buttons */
+.prevv, .nextt {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #F4303F;
+  font-weight: lighter;
+  font-size: 58px;
+  transition: 0.6s ease;
+  
+  user-select: none;
+}
+
+/* Position the "nextt button" to the right */
+.nextt {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+/* Fading animation */
+.fadee {
+  -webkit-animation-name: fadee;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fadee;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadee {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fadee {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease textt size */
+@media only screen and (max-width: 300px) {
+  .prevv, .nextt,.textt {font-size: 11px}
+}
+
+
+        /* body{
+            margin: 0px;
+            padding: 0px;
+        } */
+                /* navber */
+                
+    </style>
+
+
+</head>
+<body>
+    
+    <div id="Main">
+
+        <!--                           Header                           -->
+        <div id="Header" style="width: 100%;">
+            <div id="test">
+                <div class="topnav" id="myTopnav" >
+                    <img id="imagelogo" src=" Images/New_folder/MASTER LOGO_TAGLINE_.png" style="">
+                    <a href="#home" class="active"><img src=" Images/New_folder/Group_169.png"></a>
+                    <a href="#news"><img src=" Images/New_folder/Group_169.png"></a>
+                    <a href="#">SOLUTIONS</a>
+                    <a href="#">COMMUNITY</a>
+                    <a href="#">INSIGHT</a>
+                    <a href="#">COMPANY</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">SIGN IN</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+        </div>
+        
+        
+        </div>
+
+        <!--                        Home                 -->
+
+        <div id="Home">  
+            <div id="Homeslider">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">K12</div><br>
+                      <div class="text">Connecting people to the resources they need to power eduction</div><br>
+                      <div>
+                            <button>SCHEDULE A DEMO</button>
+                            
+                      </div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <div class="numbertext">K12</div><br>
+                        <div class="text">Connecting people to the resources they need to power eduction</div><br>
+                        <div>
+                              <button>SCHEDULE A DEMO</button>
+                              
+                        </div>
+                    </div>
+                    
+                            
+                    <div class="mySlides fade" >
+                        <div class="numbertext">K12</div><br>
+                        <div class="text">Connecting people to the resources they need to power eduction</div><br>
+                        <div>
+                              <button>SCHEDULE A DEMO</button>
+                              
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <br>
+                    
+                    <div id="dothandler" style="text-align:center">
+                      <span class="dot active1" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                    
+            </div>
+    
+        </div>
+            <!--                        Home                 -->
+
+        <!-- procument -->
+        <div id="Procurement">
+            <div  style="margin: 70px;">
+                <div class="Paragraph" style=" font-size: 48px;" >
+                    <p style="margin: 0px; padding: 0px;">Procurement that matters</p>
+                </div>
+        
+                <div class="Paragraph" style="font-size: 16px; " >
+                    <p>Your mission is about more than managing spend. 
+                    It’s about serving <br>communities. Here’s how ESM can help:</p>
+                </div>
+        
+                <div id="Imagesgallery">
+                    <div class="Imagesdiv" >
+                        <div>
+                            <img src=" Images/GettyImages-1151198108.png"  >
+                        </div>
+        
+                        <div>
+                            <div class="Imagespara" >
+                                <h2>Convenience</h2>
+                                    A smarter buying experience in a single marketplace where every stakeholder 
+                                    can find the right suppliers and products.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Imagesdiv" >
+                        <div>
+                            <img src=" Images/gettyimages-639347150-170667a.png">
+                        </div>
+        
+                        <div>
+                            <div class="Imagespara" >
+                                <h2>Intelligence</h2>
+                                    Source with more insight, manage suppliers more strategically, and promote better buyer 
+                                    behaviors.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Imagesdiv" >
+                        <div>
+                            <img src=" Images/GettyImages-935639222.png">
+                        </div>
+        
+                        <div>
+                            <div class="Imagespara" >
+                                <h2>Community</h2>
+                                    Collaborative relationships help us build community insight into every solution for 
+                                    faster, more valuable, innovation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Imagesdiv" >
+                        <div>
+                            <img src=" Images/GettyImages-157309755.png" >
+                        </div>
+        
+                        <div>
+                            <div class="Imagespara" >
+                                <h2>Mission</h2>
+                                Build a more sustainable and diverse supply chain to minimize risk, improve 
+                                compliance, and connect your people to the resources they need to thrive.
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    
+                </div>
+            </div>
+        </div>
+        <!-- procument -->
+
+        <!-- intelligent  -->
+
+        <div id="Intelligent">
+            <div id="Intelligentpara">
+
+                        <p style="font-size: 32px;">
+                            Intelligent Together
+                        </p>
+                        <p >
+                            At ESM we’re delivering dynamic new technologies, powered by<br> community insight, 
+                            to help you build, manage, and evolve the<br> procurement ecosystem that’s right for 
+                            your organization.
+                        </p>
+                        
+            </div>
+        </div>
+
+        <!-- intelligent  -->
+
+        
+        <!-- Our Suppiler Network  -->
+        
+        
+            <div id="Suppilernetwork" style="">
+                
+        
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 20px; color: white;">
+
+                    <div class="data" style="width: 350px; height: 430px; background-color: #AC306C;" >
+                        <div>
+                            <img src=" Images/Image/New folder/Group106.png" style="width: 100%; height: 220px" >
+                        </div>
+        
+                        <div >
+                            <div style="padding-top: 5px; text-align: center;">
+                                <img src=" Images/Image/New folder/Group176.png" style="width: 216px; height: 20px;">
+                                
+                                <h2></h2>
+                                Your platform for procurement transformation<br><br>
+                                <span style="font-style:italic">Scalable cloud solutions that connect communities</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data" style="width: 350px; height: 430px; background-color: #813B76; ">
+                        <div>
+                            <img src=" Images/Image/New folder/Group109.png" style="width: 100%; height: 220px">
+                        </div>
+        
+                        <div>
+                            <div style="padding-top: 5px; text-align: center;">
+                                <img src=" Images/Image/New folder/Group180.png" style="width: 216px; height: 20px;">
+                                <h2></h2>
+                                Create, manage, and monitor contracts<br><br>
+                                <span style="font-style:italic">Improve compliance with better visibility across the contract lifecycle</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data" style="width: 350px; height: 430px; background-color: #3B618F;  ">
+                        <div>
+                            <img src=" Images/Image/New folder/Group112.png" style="width: 100%; height: 220px" >
+                        </div>
+        
+                        <div>
+                            <div style="padding-top: 5px; text-align: center;">
+                                <img src=" Images/Image/New folder/Group183.png" style="width: 216px; height: 20px;">
+                                <h2></h2>
+                                A single marketplace for every stakeholder <br><br>
+                                <span style="font-style:italic">Gain control of your institution’s spend</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="data" style="width: 350px; height: 430px; background-color:#4E7D8F; " >
+                        <div>
+                            <img src=" Images/Image/New folder/Group115.png" style="width: 100%; height: 220px" >
+                        </div>
+        
+                        <div>
+                            <div style="padding-top: 5px; text-align: center;">
+                                <img src=" Images/Image/New folder/Group187.png" style="width: 216px; height: 20px;">
+                                <h2></h2>
+                                Source with agility and insight <br><br>
+                                <span style="font-style:italic">Build a sustainable and diverse sourcing strategy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data" style="width: 350px; height: 430px; background-color:#5E904D;  ">
+                        <div>
+                            <img src=" Images/Image/New folder/Group118.png" style="width: 100%; height: 220px">
+                        </div>
+        
+                        <div>
+                            <div style="padding-top: 5px; text-align: center;">
+                                <img src=" Images/Image/New folder/Group190.png" style="width: 216px; height: 20px;">
+                                <h2></h2>
+                                Optimize supplier performance<br><br>
+                                <span style="font-style:italic">Manage supplier relationships to drive value</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+
+            <div id="Networklayers" style="">
+                <div class="Networkimages" style="font-size: 48px; ">
+                    
+                        Our Suppiler Network
+                   
+                </div>
+                    
+                <div class="Networkimages" style=" font-size: 16px;">
+                    <p>
+                        We partner with diverse suppliers from a variety of industries to cover all your 
+                        procurement<br> needs. Below are a few types of suppliers that we work with.
+                    </p>
+                </div>
+        
+                
+                    <div class="Networkimages">
+        
+                        <img src=" Images/Image/Group 127.png" >
+        
+                        <img src=" Images/Image/Group 129.png" >
+        
+                        <img src=" Images/Image/Group 131.png" >
+        
+                        <img src=" Images/Image/Group 134.png" >
+            
+                    </div>
+        
+                    <div class="Networkimages">
+        
+                        <img src=" Images/Image/Group 136.png" >
+        
+                        <img src=" Images/Image/Group 138.png" >
+        
+                        <img src=" Images/Image/Group 141.png" >
+        
+                        <img src=" Images/Image/Group 144.png" >
+            
+                    </div>
+                
+        
+                <div class="Networkimages">
+                    <button>
+                        ALL OUR SUPPILERS
+                    </button>
+                </div>
+            </div>
+         -->
+        <!-- Our Suppiler Network -->
+
+        <!-- Success -->
+        <div id="Success">  
+            <div id="Successpara">
+                    <!-- <center> -->
+                    <div>
+                        <p>
+                            <span style="font-size: 48px;">Success</span><br><br>
+                        
+                            Joliet Junior College masters supply chain<br> uncertainty with ESM Source<br><br>
+                            During the pandemic, bidding and <br>solicitation processes continue without <br>
+                            interruption<br><br>
+                        
+                            <button>LEARN &nbsp&nbsp MORE</button>
+                        </p>
+                    </div>
+                    <!-- </center> -->
+            </div>
+    
+        </div>
+      
+        <!-- Success -->
+        <div class="slidesho-container" style="margin-top: 150px;">
+
+            <div class="Sliderss fadee">
+              <div style=" color: #F4303F; ">
+                  <h1> More Case studies</h1>
+              </div>
+              <div>
+                <div class="Imagesdiv" style="display: flex; flex-wrap: wrap; justify-content: center;" >
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;">
+                              Delaware Valley University delivers a more convenient buying experience<br><br>
+                              ESM Purchase helps buyers make smarter purchasing decisions
+                          </div>
+                      </div>
+                  </div>
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;" >
+                              Western Washington University drives sustainability and diversity <br><br>
+                              Influencing buyer behavior to support University values
+                             
+                          </div>
+                      </div>
+                  </div>
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;">
+                              Joliet Junior College connects people to the resources they need<br><br>
+                              With ESM Purchase, JCC tracks spend, reduces costs, and delivers better service across its education community
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+              
+              
+            </div>
+      
+            <div class="Sliderss fadee">
+              
+              <div style=" color: #F4303F; ">
+                  <h1> More Case studies</h1>
+              </div>
+              <div>
+                <div class="Imagesdiv" style="display: flex; flex-wrap: wrap; justify-content: center;" >
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;">
+                              Delaware Valley University delivers a more convenient buying experience<br><br>
+                              ESM Purchase helps buyers make smarter purchasing decisions
+                          </div>
+                      </div>
+                  </div>
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;" >
+                              Western Washington University drives sustainability and diversity <br><br>
+                              Influencing buyer behavior to support University values
+                             
+                          </div>
+                      </div>
+                  </div>
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;">
+                              Joliet Junior College connects people to the resources they need<br><br>
+                              With ESM Purchase, JCC tracks spend, reduces costs, and delivers better service across its education community
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+              
+            </div>
+      
+                    
+            <div class="Sliderss fadee">
+              
+              <div style=" color: #F4303F; ">
+                  <h1> More Case studies</h1>
+              </div>
+              <div>
+                <div class="Imagesdiv" style="display: flex; flex-wrap: wrap; justify-content: center;" >
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;">
+                              Delaware Valley University delivers a more convenient buying experience<br><br>
+                              ESM Purchase helps buyers make smarter purchasing decisions
+                          </div>
+                      </div>
+                  </div>
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;" >
+                              Western Washington University drives sustainability and diversity <br><br>
+                              Influencing buyer behavior to support University values
+                             
+                          </div>
+                      </div>
+                  </div>
+                  <div style="margin: 5px; width: 300px; 
+                  height: 430px; 
+                  background-color:none;">
+                      <div>
+                          <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                      </div>
+      
+                      <div>
+                          <div class="Imagespara" style="margin: 5px;">
+                              Joliet Junior College connects people to the resources they need<br><br>
+                              With ESM Purchase, JCC tracks spend, reduces costs, and delivers better service across its education community
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+              
+            </div>
+      
+            <a class="prevv" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="nextt" onclick="plusSlides(1)">&#10095;</a>
+      
+          </div>
+        <!-- <div id="Success1">
+            <div class="slidesho-container" style="margin-top: 150px; ">
+
+                <div class="Sliderss fadee">
+                  <div style=" color: #F4303F;">
+                      <h1> More Case studies</h1>
+                  </div>
+                  <div>
+                    <div class="Imagesdiv" style="display: flex; flex-wrap: wrap; justify-content: center;" >
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;">
+                                  Delaware Valley University delivers a more convenient buying experience<br><br>
+                                  ESM Purchase helps buyers make smarter purchasing decisions
+                              </div>
+                          </div>
+                      </div>
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;" >
+                                  Western Washington University drives sustainability and diversity <br><br>
+                                  Influencing buyer behavior to support University values
+                                 
+                              </div>
+                          </div>
+                      </div>
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;">
+                                  Joliet Junior College connects people to the resources they need<br><br>
+                                  With ESM Purchase, JCC tracks spend, reduces costs, and delivers better service across its education community
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  
+                  
+                </div>
+          
+                <div class="Sliderss fadee">
+                  
+                  <div style=" color: #F4303F; ">
+                      <h1> More Case studies</h1>
+                  </div>
+                  <div>
+                    <div class="Imagesdiv" style="display: flex; flex-wrap: wrap; justify-content: center;" >
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;">
+                                  Delaware Valley University delivers a more convenient buying experience<br><br>
+                                  ESM Purchase helps buyers make smarter purchasing decisions
+                              </div>
+                          </div>
+                      </div>
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;" >
+                                  Western Washington University drives sustainability and diversity <br><br>
+                                  Influencing buyer behavior to support University values
+                                 
+                              </div>
+                          </div>
+                      </div>
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;">
+                                  Joliet Junior College connects people to the resources they need<br><br>
+                                  With ESM Purchase, JCC tracks spend, reduces costs, and delivers better service across its education community
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  
+                </div>
+          
+                        
+                <div class="Sliderss fadee">
+                  
+                  <div style=" color: #F4303F; ">
+                      <h1> More Case studies</h1>
+                  </div>
+                  <div>
+                    <div class="Imagesdiv" style="display: flex; flex-wrap: wrap; justify-content: center;" >
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;">
+                                  Delaware Valley University delivers a more convenient buying experience<br><br>
+                                  ESM Purchase helps buyers make smarter purchasing decisions
+                              </div>
+                          </div>
+                      </div>
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;" >
+                                  Western Washington University drives sustainability and diversity <br><br>
+                                  Influencing buyer behavior to support University values
+                                 
+                              </div>
+                          </div>
+                      </div>
+                      <div style="margin: 5px; width: 300px; 
+                      height: 430px; 
+                      background-color:none;">
+                          <div>
+                              <img src=" Images/New_folder/New folder/Group 192.png"  style="width: 300px; height: 220px;" >
+                          </div>
+          
+                          <div>
+                              <div class="Imagespara" style="margin: 5px;">
+                                  Joliet Junior College connects people to the resources they need<br><br>
+                                  With ESM Purchase, JCC tracks spend, reduces costs, and delivers better service across its education community
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  
+                </div>
+          
+                <a class="prevv" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="nextt" onclick="plusSlides(1)">&#10095;</a>
+          
+              </div>
+        </div> -->
+
+        <!-- How Can I Help  -->
+
+        <div id="Help">
+            <div id="Helppara">
+
+                        
+                        <p >
+                            Any questions?<br><br>
+                        <span style="font-size: 32px;">
+                            How can we help you?</span><br><br>
+                            <button>
+                                GET IN TOUCH
+                            </button>
+                        </p>
+                        
+                        
+            </div>
+        </div>
+
+        <!-- How Can I Help  -->
+
+        
+
+
+        <!-- ESM  -->
+        <div id="ESM">
+            
+                <div id="ESMdata">
+                    <div style="display: flex; 
+                    flex-wrap: wrap; 
+                    justify-content: space-between; margin: 70px; ">
+                    <div>
+                        <img src=" Images/New_folder/MASTER LOGO_TAGLINE_.png" >
+                    </div>
+        
+                    <div >
+        
+                        <a href="#">
+                            Company News
+                        </a><br>
+        
+                        <a href="#">
+                            Privacy Policy
+                        </a><br>
+        
+                        <a href="#">
+                            Terms and Conditions
+                        </a><br>
+        
+                    </div>
+                        
+                    <div >
+                        
+                            Hey #NAEP2019! Visit us in Booth<br> 721 to find out why we’ve become<br>  Ellucian’s 
+                            Strategic Partner for <br>Procurement Solutions for Banner <br>and Colleague and how you 
+                            can  <br>incorporate the new Ellucian <br>Purchase, powered by ESM, into <br>your 
+                            #spendmanagement ><br> https://bit.ly/2FqPuwk
+                        
+                    </div>
+        
+                    <div >
+                        
+                            Contact us<br><br>
+        
+                            Phone: 877 969 7246<br>
+                            support@esmsolutions.com<br>
+                            1501 Main Street Building 500, <br>
+                            Unit 210, Warrington PA, 18976
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- ESM  -->
+
+
+        <!-- Footer  -->
+        <div id="Footer">
+            <div style="margin: 70px;">
+                
+                    
+                        Copyright ©2020 ESM Solutions Corporation.  All Rights Reserved.
+                                  
+            </div>
+        </div>
+        <!-- Footer -->
+
+    </div>
+
+    <script>
+
+        // Navbar
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            document.getElementById("imagelogo").style.display = "none";
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+            document.getElementById("imagelogo").style.display = "block";
+          }
+          
+        }
+
+        // Navbar end
+
+
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active1";
+}
+
+
+// Sliders
+var slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+function plusSlides(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+function currentSlide1(n) {
+  showSlides1(slideIndex1 = n);
+}
+
+function showSlides1(n) {
+  var i;
+  var slides = document.getElementsByClassName("Sliderss");
+  if (n > slides.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  
+  slides[slideIndex1-1].style.display = "block";  
+}
+    </script>
+
+</body>
+</html>
